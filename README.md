@@ -2,14 +2,18 @@ Pawsome Pals: Cat & Dog Breed Explorer
 A modern, responsive web application built to explore various cat and dog breeds. Discover random breeds on the homepage and dive into detailed views for each one, complete with image galleries.
 
 <a>
-   <img src="https://img.shields.io/badge/Next.js-13+-black?style=for-the-badge&logo=next.js" alt="Next.js Badge"/>
+   <img src="https://img.shields.io/badge/Next.js-15+-black?style=for-the-badge&logo=next.js" alt="Next.js Badge"/>
 </a>
-  <a >
+  <a>
     <img src="https://img.shields.io/badge/TypeScript-5+-blue?style=for-the-badge&logo=typescript" alt="TypeScript Badge"/>
   </a>
+    <a>
+    <img src="https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind_CSS Badge"/>
+  </a>
+   <a>
+    <img src="https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel" alt="Vercel Badge"/>
+  </a>
 
-https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css
-https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel
 
 Live Demo: https://pet-breed-explorer-pi.vercel.app/
 
