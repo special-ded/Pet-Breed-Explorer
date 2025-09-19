@@ -1,7 +1,9 @@
 Pawsome Pals: Cat & Dog Breed Explorer
 A modern, responsive web application built to explore various cat and dog breeds. Discover random breeds on the homepage and dive into detailed views for each one, complete with image galleries.
 
+<a>
 https://img.shields.io/badge/Next.js-13+-black?style=for-the-badge&logo=next.js
+</a>
   <a href="https://www.linkedin.com/in/draganovivan/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
