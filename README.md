@@ -1,4 +1,4 @@
-Pawsome Pals: Cat & Dog Breed Explorer
+### Pawsome Pals: Cat & Dog Breed Explorer
 
 A modern, responsive web application built to explore various cat and dog breeds. Discover random breeds on the homepage and dive into detailed views for each one, complete with image galleries.
 
@@ -14,7 +14,7 @@ A modern, responsive web application built to explore various cat and dog breeds
 
 Live Demo: https://pet-breed-explorer-pi.vercel.app/
 
-🚀 Features
+### 🚀 Features
 
 Homepage: Displays a grid of random cat and dog breed cards fetched from their respective APIs.
 
@@ -26,7 +26,7 @@ Fully Responsive: Seamless experience on desktop, tablet, and mobile devices, de
 
 Type-Safe: Built with TypeScript for improved developer experience and code reliability.
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 
 This project was built using the following technologies:
 
@@ -46,7 +46,7 @@ The Dog API - For all dog breed data and images.
 
 The Cat API - For all cat breed data and images.
     
-🔧 Key Implementation Details
+### 🔧 Key Implementation Details
 
 Data Fetching: Utilizes Next.js 15's enhanced fetch API with async/await in Server Components for efficient server-side rendering (SSR) and static site generation (SSG).
 
