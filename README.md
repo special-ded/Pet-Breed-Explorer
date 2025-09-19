@@ -1,4 +1,5 @@
 Pawsome Pals: Cat & Dog Breed Explorer
+
 A modern, responsive web application built to explore various cat and dog breeds. Discover random breeds on the homepage and dive into detailed views for each one, complete with image galleries.
 
 <a>
