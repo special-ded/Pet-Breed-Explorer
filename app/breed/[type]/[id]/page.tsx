@@ -1,11 +1,10 @@
 import Link from 'next/link';
-import { BreedGallery } from '@/components/BreedGallery';
-import { getBreedWithImages } from '@/lib/api';
+import {BreedGallery} from '@/components/BreedGallery';
+import {getBreedWithImages} from '@/lib/api';
 
-export default async function BreedPage({ params }: {params: Promise<{ type: string; id: string }>}) {
-    const { type, id } = await params;
-    const { breed, images } = await getBreedWithImages(id, type as 'dog' | 'cat');
-    console.log(images)
+export default async function BreedPage({params}: { params: Promise<{ type: string; id: string }> }) {
+    const {type, id} = await params;
+    const {breed, images} = await getBreedWithImages(id, type as 'dog' | 'cat');
     if (!breed) {
         return (
             <div className="container mx-auto p-4 min-h-screen">
@@ -25,7 +24,6 @@ export default async function BreedPage({ params }: {params: Promise<{ type: str
 
     return (
         <div className="container mx-auto p-4 min-h-screen">
-            {/* Breadcrumb Navigation */}
             <nav className="mb-6">
                 <Link
                     href="/"
@@ -35,7 +33,6 @@ export default async function BreedPage({ params }: {params: Promise<{ type: str
                 </Link>
             </nav>
 
-            {/* Breed Header */}
             <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <div className="flex items-center justify-between mb-4">
                     <h1 className="text-3xl font-bold text-gray-800">{breed.name}</h1>
@@ -44,7 +41,6 @@ export default async function BreedPage({ params }: {params: Promise<{ type: str
           </span>
                 </div>
 
-                {/* Breed Details Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
                     {breed.temperament && (
                         <div className="bg-gray-50 p-4 rounded-lg">
@@ -77,7 +73,6 @@ export default async function BreedPage({ params }: {params: Promise<{ type: str
                     )}
                 </div>
 
-                {/* Additional Details */}
                 <div className="space-y-4">
                     {breed.bred_for && (
                         <div>
@@ -102,10 +97,9 @@ export default async function BreedPage({ params }: {params: Promise<{ type: str
                 </div>
             </div>
 
-            {/* Breed Images Gallery */}
             <div className="bg-white rounded-lg shadow-md p-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">{breed.name} Gallery</h2>
-                <BreedGallery images={images} breedName={breed.name} />
+                <BreedGallery images={images} breedName={breed.name}/>
             </div>
         </div>
     );
