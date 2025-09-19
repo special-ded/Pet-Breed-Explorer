@@ -19,6 +19,7 @@ A modern, responsive web application built to explore various cat and dog breeds
 Live Demo: https://pet-breed-explorer-pi.vercel.app/
 
 🚀 Features
+
 Homepage: Displays a grid of random cat and dog breed cards fetched from their respective APIs.
 
 Breed Cards: Each card features a high-quality image and the name of the breed.
@@ -30,6 +31,7 @@ Fully Responsive: Seamless experience on desktop, tablet, and mobile devices, de
 Type-Safe: Built with TypeScript for improved developer experience and code reliability.
 
 🛠 Tech Stack
+
 This project was built using the following technologies:
 
 Framework: Next.js 15+ (Using the App Router)
@@ -49,6 +51,7 @@ The Dog API - For all dog breed data and images.
 The Cat API - For all cat breed data and images.
 
 📦 Project Structure
+
 text
 src/
 ├── app/
@@ -62,6 +65,7 @@ src/
 │   └── BreedCard.tsx             # Reusable card component for breeds
 └── types/
     └── index.ts                  # TypeScript type definitions
+    
 🔧 Key Implementation Details
 
 Data Fetching: Utilizes Next.js 15's enhanced fetch API with async/await in Server Components for efficient server-side rendering (SSR) and static site generation (SSG).
